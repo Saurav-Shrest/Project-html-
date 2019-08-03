@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<style type="text/css">
+		body{
+			margin:0;
+		}
+		#head{
+			background-color: #232a34;
+			font-size: 30px;
+			padding: 15px;
+			word-spacing: 20px;
+		}
+		#form{
+			background-color: white;
+       		width: 500px;
+       		height: 600px;
+       		margin-right: auto;
+       		margin-left: auto;
+       		padding-bottom: 30px;
+       		text-align:center;
+        	border: 1px solid #ccc;
+		}
+		.edit-text{
+			border :0px;
+        	padding-top: 40px;
+        	border-bottom: 1px solid lightgrey;
+        	width: 100%;
+		}
+		#button{
+			padding-top: 100px;
+		}
+		.text{
+			margin-left: 30px;
+        	margin-right: 30px;
+		}
+		#edit-button{
+			border: 0;
+			background-color:#0056ff;
+			width: 80px;
+			height: 40px;
+			color: white;
+		}
+	</style>
+</head>
+<body link="white" vlink="#53F0CE" alink="#803271">
+	
+	<div>
+		<header id="head">
+			<font face="impact" color="white">
+				<span><a href="TRIPS.html">TRIPS</a></span>
+				<span><a href="about.html">ABOUT</a></span>
+				<span><a href="contact.html">CONTACT</a></span>
+			</font>
+		</header>
+	</div>
+
+	<form method="GET" id="form" >
+      
+      <h1 style="font-size:30px; padding-top:60px">CONTACT</h1>
+      
+      <br>
+      
+      <div class="text">
+        <input class="edit-text" type="text" name="txt1" placeholder="Name" required /><br>
+        
+        <input class="edit-text" type="email" name="email" placeholder="Email" required /><br>
+        
+        <input class="edit-text" type="text" name="ph" placeholder="Phone Number" required /> <br>
+        
+      </div>
+      
+      <div id="button">
+      
+      <input id="edit-button" type="submit" name="submit" value="Submit" />
+        
+      </div>
+      
+    </form>
+</body>
+</html>
